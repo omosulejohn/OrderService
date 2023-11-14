@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto17
+      java: corretto8
   build:
     commands:
       - echo Entered the build phase...
@@ -11,6 +11,7 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
+      - mvn package
 artifacts:
   files:
     - target/order-service.jar
