@@ -17,7 +17,8 @@ public class OrderDao {
                 new Order(205, "Laptop", 1, 150000),
                 new Order(809, "headset", 1, 1799),
                 new Order(111, "Car", 1, 200000),
-                new Order(112, "TV", 5, 400000))
+                new Order(112, "TV", 5, 400000),
+                new Order(113, "Fridge", 6, 500000))
                 .collect(Collectors.toList());
     }
 }
