@@ -19,7 +19,8 @@ public class OrderDao {
                 new Order(111, "Car", 1, 200000),
                 new Order(112, "TV", 5, 400000),
                 new Order(113, "Fridge", 6, 500000),
-                new Order(114, "Home Theater", 7, 1000))
+                new Order(114, "Home Theater", 7, 1000),
+                new Order(115, "Bike", 3, 2000))
                 .collect(Collectors.toList());
     }
 }
