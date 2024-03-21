@@ -17,14 +17,7 @@ public class OrderDao {
                 new Order(205, "Laptop", 1, 150000),
                 new Order(809, "headset", 1, 1799),
                 new Order(111, "Car", 1, 200000),
-                new Order(112, "TV", 5, 400000),
-                new Order(113, "Fridge", 6, 500000),
-                new Order(114, "Home Theater", 7, 1000),
-                new Order(115, "Bike", 3, 2000),
-                new Order(116, "Stereo", 4, 4000),
-                new Order(117, "Alexa", 5, 5000),
-                new Order(118, "Boss-Headphones", 6, 1000),
-                new Order(119, "Desktop", 3, 1000))
+                new Order(112, "TV", 5, 400000))
                 .collect(Collectors.toList());
     }
 }
